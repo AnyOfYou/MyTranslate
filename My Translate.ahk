@@ -1,4 +1,6 @@
 #Include CodeXChange.ahk
+#Include URLDownloadToVar.ahk
+#Include JSON.ahk
 
 Menu,Tray,NoStandard
 Menu,Tray,Add,&TranslationSource
