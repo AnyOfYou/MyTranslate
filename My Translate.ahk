@@ -148,6 +148,7 @@ else
 	Gui, Add, Edit, y15 W180 R1 vWord
 	Gui,Font
 	Gui, Add, Button, DEFAULT W70 X60, OK
+	Gui,+AlwaysOnTop
 	Gui, Show,xCenter yCenter, Translate
 	WinSet, Transparent, 150,Translate ahk_class AutoHotkeyGUI
 	Return
