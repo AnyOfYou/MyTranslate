@@ -142,6 +142,11 @@ If ErrorLevel = 0
 }
 else
 {
+	IfWinExist,Translate ahk_class AutoHotkeyGUI
+	{
+		WinActivate,Translate ahk_class AutoHotkeyGUI
+		Return
+	}
 	;InputBox不能透明,改用自定义的GUI
 	;InputBox,InputText,Translate,,,200,100
 	Gui,Font,s11,Arial
